@@ -10,9 +10,9 @@ This repository contains a simple Flask application that is containerized using 
 
 ## Instructions
 1. Build the Docker Image:
-```
+'''
 docker build -t my-flask-app:latest .
-```
+'''
 2. Deploying to Kubernetes
 Set up the Docker Environment:
 If you're using Minikube, you can use its Docker daemon by running:
