@@ -43,7 +43,7 @@ minikube service flask-app-service
 *Cloud-based or other Kubernetes Clusters*: Access the application via the external IP of your cluster's node combined with the node port defined in service.yaml.
 
 ## Assumptions 
-# Deploying on a minikube cluster and accessing the image locally.
+### Deploying on a minikube cluster and accessing the image locally.
 If you are using a multi-node cluster and want to access the image locally you can load it to each node's Docker Daemon:
 ```
 docker save my-flask-app:latest > my-flask-app.tar
