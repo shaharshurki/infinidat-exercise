@@ -30,9 +30,9 @@ kubectl get deployments
 kubectl get pods
 ```
 ## Access the Application:
-Minikube: Use the following command to get the URL:
+*Minikube*: Use the following command to get the URL:
 ```
 minikube service flask-app-service
 ```
-Cloud-based or other Kubernetes Clusters: Access the application via the external IP of your cluster's node combined with the node port defined in service.yaml.
+*Cloud-based or other Kubernetes Clusters*: Access the application via the external IP of your cluster's node combined with the node port defined in service.yaml.
 
