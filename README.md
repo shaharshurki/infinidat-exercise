@@ -8,24 +8,13 @@ This repository contains a simple Flask application that is containerized using 
 - kubectl command-line tool installed and configured
 
 ## Instructions
-1. Build the Docker Image:
-'''
-docker build -t my-flask-app:latest .
-'''
-2. Deploying to Kubernetes
-Set up the Docker Environment:
-If you're using Minikube, you can use its Docker daemon by running:
+1. Clone the repository
 
-```
-eval $(minikube docker-env)
-```
-Build the Docker Image in Minikube's Docker Daemon:
-
+2. Build the Docker Image:
 ```
 docker build -t my-flask-app:latest .
 ```
-
-Create Kubernetes Deployment and Service:
+3. Deploying to Kubernetes
 Apply the deployment and service YAML files to your Kubernetes cluster:
 
 ```bash
@@ -40,13 +29,8 @@ kubectl get pods
 ```
 ## Access the Application:
 Minikube: Use the following command to get the URL:
-Copy code
+```
 minikube service flask-app-service
-Cloud-based or other Kubernetes Clusters: Access the application via the external IP of your cluster's node combined with the node port defined in flask-service.yaml.
-Troubleshooting
-Ensure Docker is running before building the image.
-Verify that kubectl is correctly configured to interact with your Kubernetes cluster.
-Check the logs of the Kubernetes pods if the application is not running as expected:
-php
-Copy code
-kubectl logs <pod-name>
+```
+Cloud-based or other Kubernetes Clusters: Access the application via the external IP of your cluster's node combined with the node port defined in service.yaml.
+
