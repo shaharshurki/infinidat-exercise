@@ -8,16 +8,16 @@ This repository contains a simple Flask application that is containerized using 
 - kubectl command-line tool installed and configured
 
 ## Instructions
-1. Clone the repository and move to the directory.
+### 1. Clone the repository and move to the directory.
 ```
 git clone https://github.com/shaharshurki/infinidat-exercise.git
 cd infinidat-exercise
 ```
-2. Build the Docker Image:
+### 2. Build the Docker Image:
 ```
 docker build -t my-flask-app:latest .
 ```
-3. Deploying to Kubernetes
+### 3. Deploying to Kubernetes
 Apply the deployment and service YAML files to your Kubernetes cluster:
 
 ```bash
