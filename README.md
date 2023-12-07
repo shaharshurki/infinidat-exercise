@@ -1,4 +1,4 @@
-# infinidat-exercise
+# Infinidat Exercise
 ## Introduction
 This repository contains a simple Flask application that is containerized using Docker and deployable on a Kubernetes cluster. The application includes basic endpoints and demonstrates how to set up a Flask app in a k8s environment.
 
