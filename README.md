@@ -9,7 +9,9 @@ This repository contains a simple Flask application that is containerized using 
 
 ## Instructions
 1. Clone the repository
-
+```
+git clone https://github.com/shaharshurki/infinidat-exercise.git
+```
 2. Build the Docker Image:
 ```
 docker build -t my-flask-app:latest .
