@@ -8,9 +8,10 @@ This repository contains a simple Flask application that is containerized using 
 - kubectl command-line tool installed and configured
 
 ## Instructions
-1. Clone the repository
+1. Clone the repository and move to the directory.
 ```
 git clone https://github.com/shaharshurki/infinidat-exercise.git
+cd infinidat-exercise
 ```
 2. Build the Docker Image:
 ```
